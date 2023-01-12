@@ -1,0 +1,35 @@
+     A*%%TS  SD  20230111  051844  IGNAN       REL-V7R5M0  5770-WDS
+     A*%%EC
+     A                                      DSPSIZ(24 80 *DS3)
+     A                                      INDARA
+     A                                      CF03(03)
+     A          R HEADER
+     A                                      OVERLAY
+     A*%%TS  SD  20230111  051022  IGNAN       REL-V7R5M0  5770-WDS
+     A                                  1 28'Employee Information'
+     A          R EMPDATA
+     A                                      OVERLAY
+     A*%%TS  SD  20230111  051844  IGNAN       REL-V7R5M0  5770-WDS
+     A                                  6 15'Employee Name:'
+     A  31                                  DSPATR(ND)
+     A                                  7 15'Phone No:'
+     A  31                                  DSPATR(ND)
+     A                                  8 15'Address:'
+     A  31                                  DSPATR(ND)
+     A            NAME          20A  O  6 34
+     A  31                                  DSPATR(ND)
+     A            PHONE         10  0O  7 34
+     A  31                                  DSPATR(ND)
+     A            ADDRESS       40A  O  8 34
+     A  31                                  DSPATR(ND)
+     A                                  9 15'Position:'
+     A  31                                  DSPATR(ND)
+     A                                 10 15'Reporting Manager:'
+     A  31                                  DSPATR(ND)
+     A            ROLE          20A  O  9 34
+     A  31                                  DSPATR(ND)
+     A            MANAGR        20A  O 10 34
+     A  31                                  DSPATR(ND)
+     A                                  5 15'Employee Id: '
+     A            EMPID          6S 0B  5 34
+     A                                 23  2'F3=Exit'
