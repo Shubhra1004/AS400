@@ -1,0 +1,7 @@
+     A          R EMPDATAR
+     A            EMPID          6P 0
+     A            EMPNAME       20A
+     A            PHONE         10P 0
+     A            ADDRESS       40A
+     A            POSTION       20A
+     A            MANAGER       20A
